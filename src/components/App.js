@@ -24,12 +24,17 @@ function App() {
     createdAt: '18:00',
   }
   ]);
+  const reverse Todos =() =>{
+  setTodos([....todos].reverse());)
+  };
 
   return (
     <div id="main">
-      <button>Reverse</button>
+    
+      <button onClick={reverse Todos}>Reverse</button>
       <table>
         <tbody>
+    {todos.map((todo)=>}
         </tbody>
       </table>
     </div>
