@@ -16,7 +16,7 @@ function ToDo() {
 }
 
 function App() {
-  const [todos, setTodos] = useState([{
+  const [todos, setTodos] = useState([{(
     id: 'todo1',
     createdAt: '20:30',
   }, {
