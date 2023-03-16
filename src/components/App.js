@@ -34,7 +34,7 @@ function App() {
       <button onClick={reverse Todos}>Reverse</button>
       <table>
         <tbody>
-    {todos.map((todo)=>}
+    {todos.map((todo)=>})
         </tbody>
       </table>
     </div>
